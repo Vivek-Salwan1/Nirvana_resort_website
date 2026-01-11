@@ -12,26 +12,26 @@ const Hero = () => {
                 }}
                 aria-label="Peaceful lakeside resort view"
             >
-                <div className="absolute inset-0 bg-black/30"></div> {/* Dark Overlay */}
+                <div className="absolute inset-0 bg-black/50"></div> {/* Dark Overlay */}
             </div>
 
             {/* Content */}
             <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-4 md:px-20 text-white pb-20 md:pb-0">
-                <h2 className="text-sm md:text-base font-medium tracking-[0.2em] uppercase mb-4 text-accent-yellow animate-fade-in-up">
+                <h2 className="text-sm md:text-base font-medium tracking-[0.3em] uppercase mb-6 text-white/90 animate-fade-in-up font-sans">
                     Welcome to Paradise
                 </h2>
-                <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-6 leading-tight max-w-4xl shadow-sm text-shadow-sm animate-fade-in-up delay-100">
+                <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-medium mb-8 leading-tight max-w-5xl shadow-sm text-shadow-sm animate-fade-in-up delay-100 italic">
                     A Refined Stay <br className="hidden md:block" /> in the Heart of Nature
                 </h1>
-                <p className="text-lg md:text-xl font-light mb-10 max-w-2xl text-gray-100 animate-fade-in-up delay-200">
+                <p className="text-lg md:text-xl font-light mb-12 max-w-2xl text-white/90 animate-fade-in-up delay-200 font-sans tracking-wide">
                     A peaceful lakeside resort near Urmodi Dam. Experience nature like never before with premium comfort and breathtaking views.
                 </p>
 
-                <div className="flex flex-col md:flex-row gap-4 w-full md:w-auto animate-fade-in-up delay-300">
-                    <button className="px-8 py-4 bg-nature-green hover:bg-nature-green-light text-white rounded-full font-medium transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                <div className="flex flex-col md:flex-row gap-6 w-full md:w-auto animate-fade-in-up delay-300">
+                    <button className="px-10 py-4 bg-white text-nature-green hover:bg-light-beige rounded-full font-semibold tracking-wide transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1 font-sans uppercase text-sm">
                         Book Your Stay
                     </button>
-                    <button className="px-8 py-4 bg-white/10 backdrop-blur-sm border border-white hover:bg-white hover:text-nature-green text-white rounded-full font-medium transition-all shadow-lg transform hover:-translate-y-1">
+                    <button className="px-10 py-4 bg-transparent border border-white text-white hover:bg-white/10 rounded-full font-semibold tracking-wide transition-all shadow-lg transform hover:-translate-y-1 font-sans uppercase text-sm backdrop-blur-sm">
                         WhatsApp Enquiry
                     </button>
                 </div>

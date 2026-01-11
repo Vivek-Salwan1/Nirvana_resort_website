@@ -15,8 +15,9 @@ export default {
                 'accent-yellow': '#E6C229',
             },
             fontFamily: {
-                sans: ['Inter', 'sans-serif'],
-                serif: ['Playfair Display', 'serif'],
+                sans: ['Montserrat', 'sans-serif'],
+                serif: ['Cormorant Garamond', 'serif'],
+                display: ['Playfair Display', 'serif'],
             },
         },
     },
