@@ -104,7 +104,7 @@ const Navbar = () => {
                                 key={link.name}
                                 href={link.href}
                                 onClick={() => setIsMobileMenuOpen(false)}
-                                className="text-2xl font-serif text-nature-green hover:text-nature-green-light transition-colors"
+                                className="text-2xl font-sans font-medium text-nature-green hover:text-nature-green-light transition-colors"
                             >
                                 {link.name}
                             </a>
