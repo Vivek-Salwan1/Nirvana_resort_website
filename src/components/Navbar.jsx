@@ -109,7 +109,7 @@ const Navbar = () => {
                                 {link.name}
                             </a>
                         ))}
-                        <button className="mt-4 px-8 py-3 bg-nature-green text-white rounded-full font-medium shadow-lg hover:bg-nature-green-light transition-all transform hover:scale-105">
+                        <button className="mt-4 px-8 py-3 bg-nature-green text-white font-medium shadow-lg hover:bg-nature-green-light transition-all transform hover:scale-105">
                             Book Your Stay
                         </button>
 
