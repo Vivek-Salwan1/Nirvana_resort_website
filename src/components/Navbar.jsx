@@ -60,7 +60,7 @@ const Navbar = () => {
                         </a>
                     ))}
                     <button
-                        className={`px-5 py-2 rounded-full border transition-all duration-300 font-medium text-sm ${isScrolled
+                        className={`px-5 py-2 border transition-all duration-300 font-medium text-sm ${isScrolled
                             ? 'border-nature-green text-nature-green hover:bg-nature-green hover:text-white'
                             : 'border-white text-white hover:bg-white hover:text-nature-green'
                             }`}
