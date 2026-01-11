@@ -23,7 +23,7 @@ const Hero = () => {
                     Welcome to Nirvana
                 </h2>
                 <h1 className="text-4xl md:text-7xl lg:text-8xl font-serif font-medium mb-10 leading-tight shadow-sm text-shadow-sm animate-fade-in-up delay-100 italic">
-                    Sanctuary in Nature
+                    Moments of Peace
                 </h1>
 
                 <div className="flex flex-col md:flex-row gap-4 w-full md:w-auto animate-fade-in-up delay-300">
